@@ -141,6 +141,11 @@ img {
  }
 
  @media screen and (max-width: 480px) {
+    
+    /* body {
+        background: linear-gradient(180deg, rgba(35,41,70,1) 50%, rgba(34,34,34,1) 50%); 
+    } */
+
     .row {
         flex-wrap: wrap;
     }
@@ -163,6 +168,14 @@ img {
     
     .why-us .col-right {
         width: 100%;
+    }
+
+    .why-us {
+        padding: 3rem 0;
+        background-color: #222;
+    }
+    .steps, .why-us {
+        margin-bottom: 0;
     }
  }
 
